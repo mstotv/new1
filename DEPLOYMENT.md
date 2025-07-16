@@ -16,19 +16,19 @@ Before deploying, ensure you have:
 2. Send `/newbot` command
 3. Choose a name: `Social Media Downloader`
 4. Choose a username: `your_bot_username_bot`
-5. Copy the token provided (format: `123456789:ABCdefGHIjklMNOpqrsTUVwxyz`)
+5. Copy the token provided (format: `7989945714:AAHjm8FJv65KW4O6yCJC2Hadz-Ij2kopGsE`)
 
 ## 🆔 Getting Your Channel ID
 
 ### Method 1: Using @userinfobot
 1. Add @userinfobot to your @mitakurd channel
 2. Send any message in the channel
-3. Bot will reply with channel info including ID (format: `-1001234567890`)
+3. Bot will reply with channel info including ID (format: `-1001500958084`)
 
 ### Method 2: Using Telegram Web
 1. Open https://web.telegram.org/k/
 2. Navigate to your @mitakurd channel
-3. Check URL: `https://web.telegram.org/k/#-1001234567890`
+3. Check URL: `https://web.telegram.org/k/#-1001500958084`
 4. Copy the number after `-100`
 
 ---
@@ -66,7 +66,7 @@ Before deploying, ensure you have:
    - Go to your project → Variables tab
    - Add these variables:
      ```
-     BOT_TOKEN=your_bot_token_here
+     BOT_TOKEN=7989945714:AAHjm8FJv65KW4O6yCJC2Hadz-Ij2kopGsE
      CHANNEL_ID=@mitakurd
      CHANNEL_USERNAME=mitakurd
      ```
@@ -96,12 +96,12 @@ Before deploying, ensure you have:
 
 3. **Create Heroku App**
    ```bash
-   heroku create your-bot-name
+   heroku create MitaKurdBot
    ```
 
 4. **Set Environment Variables**
    ```bash
-   heroku config:set BOT_TOKEN=your_bot_token_here
+   heroku config:set BOT_TOKEN=7989945714:AAHjm8FJv65KW4O6yCJC2Hadz-Ij2kopGsE
    heroku config:set CHANNEL_ID=@mitakurd
    heroku config:set CHANNEL_USERNAME=mitakurd
    ```
@@ -144,7 +144,7 @@ Before deploying, ensure you have:
    - Go to Settings → Environment Variables
    - Add:
      ```
-     BOT_TOKEN=your_bot_token_here
+     BOT_TOKEN=7989945714:AAHjm8FJv65KW4O6yCJC2Hadz-Ij2kopGsE
      CHANNEL_ID=@mitakurd
      CHANNEL_USERNAME=mitakurd
      ```
@@ -197,7 +197,7 @@ Before deploying, ensure you have:
    
    Add your credentials:
    ```env
-   BOT_TOKEN=your_bot_token_here
+   BOT_TOKEN=7989945714:AAHjm8FJv65KW4O6yCJC2Hadz-Ij2kopGsE
    CHANNEL_ID=@mitakurd
    CHANNEL_USERNAME=mitakurd
    ```
