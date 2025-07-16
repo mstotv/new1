@@ -26,7 +26,7 @@ Railway can't find your Python files because they're only on your computer, not 
 3. Select your `telegram-social-media-bot` repository
 4. Railway will now see all your Python files!
 5. Add your environment variables:
-   - `BOT_TOKEN=your_bot_token`
+   - `BOT_TOKEN=7989945714:AAHjm8FJv65KW4O6yCJC2Hadz-Ij2kopGsE`
    - `CHANNEL_ID=@mitakurd`
    - `CHANNEL_USERNAME=mitakurd`
 
