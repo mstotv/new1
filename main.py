@@ -23,13 +23,13 @@ logger = logging.getLogger(__name__)
 
 class SocialMediaDownloaderBot:
     def __init__(self):
-        self.bot_token = os.getenv('BOT_TOKEN')
+        self.bot_token = os.getenv('7989945714:AAHjm8FJv65KW4O6yCJC2Hadz-Ij2kopGsE')
         self.channel_id = os.getenv('CHANNEL_ID', '@mitakurd')
         self.channel_username = os.getenv('CHANNEL_USERNAME', 'mitakurd')
         self.channel_url = f"https://t.me/{self.channel_username}"
         
         if not self.bot_token:
-            raise ValueError("BOT_TOKEN environment variable is required")
+            raise ValueError("7989945714:AAHjm8FJv65KW4O6yCJC2Hadz-Ij2kopGsE")
         
         # Supported social media patterns
         self.social_media_patterns = [
