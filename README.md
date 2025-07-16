@@ -40,7 +40,7 @@ A powerful Telegram bot that downloads content from 1000+ social media platforms
    
    Edit `.env` file with your credentials:
    ```env
-   BOT_TOKEN=your_bot_token_from_botfather
+   BOT_TOKEN=7989945714:AAHjm8FJv65KW4O6yCJC2Hadz-Ij2kopGsE
    CHANNEL_ID=@mitakurd
    CHANNEL_USERNAME=mitakurd
    ```
@@ -67,7 +67,7 @@ A powerful Telegram bot that downloads content from 1000+ social media platforms
 
 ### Method 2: Using Telegram Web
 1. Open your channel in Telegram Web
-2. Look at the URL: `https://web.telegram.org/k/#-1001234567890`
+2. Look at the URL: `https://web.telegram.org/k/#-1001500958084`
 3. The number after `-100` is your channel ID
 
 ## 🌐 Deployment Options
@@ -81,9 +81,9 @@ A powerful Telegram bot that downloads content from 1000+ social media platforms
    - Select your bot repository
 4. **Set Environment Variables**:
    - Go to Variables tab
-   - Add `BOT_TOKEN` with your bot token
-   - Add `CHANNEL_ID` with your channel ID
-   - Add `CHANNEL_USERNAME` with your channel username
+   - Add `BOT_TOKEN` 7989945714:AAHjm8FJv65KW4O6yCJC2Hadz-Ij2kopGsE
+   - Add `CHANNEL_ID` 1001500958084
+   - Add `CHANNEL_USERNAME` mitakurd
 5. **Deploy**: Railway will automatically build and deploy your bot
 
 **Cost**: Free tier available, then ~$5/month
@@ -97,11 +97,11 @@ A powerful Telegram bot that downloads content from 1000+ social media platforms
    ```
 3. **Create Heroku App**:
    ```bash
-   heroku create your-bot-name
+   heroku create MitaKurdBot
    ```
 4. **Set Environment Variables**:
    ```bash
-   heroku config:set BOT_TOKEN=your_bot_token
+   heroku config:set BOT_TOKEN=7989945714:AAHjm8FJv65KW4O6yCJC2Hadz-Ij2kopGsE
    heroku config:set CHANNEL_ID=@mitakurd
    heroku config:set CHANNEL_USERNAME=mitakurd
    ```
