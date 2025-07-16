@@ -1,0 +1,26 @@
+📁 Files to Upload to GitHub (Select ALL of these):
+
+✅ .env.example          - Environment configuration template
+✅ .gitignore           - Git ignore rules  
+✅ DEPLOYMENT.md        - Hosting instructions
+✅ Dockerfile           - Container deployment config
+✅ main.py              - YOUR BOT CODE (most important!)
+✅ Procfile             - Heroku deployment config
+✅ QUICK_GITHUB_FIX.md  - This guide
+✅ railway.toml         - Railway deployment config
+✅ README.md            - Documentation
+✅ requirements.txt     - Python dependencies (critical!)
+✅ runtime.txt          - Python version
+✅ setup.py             - Setup script
+
+❌ DO NOT UPLOAD:
+❌ .git folder          - Skip this folder
+
+TOTAL: 12 files to upload
+
+🎯 KEY FILES FOR RAILWAY:
+- main.py (your bot)
+- requirements.txt (dependencies) 
+- railway.toml (Railway config)
+
+These 3 files will fix the "Nixpacks build failed" error!
